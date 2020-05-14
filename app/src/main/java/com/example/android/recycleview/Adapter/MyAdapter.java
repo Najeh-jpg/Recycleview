@@ -1,4 +1,4 @@
-package Adapter;
+package com.example.android.recycleview.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,11 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.android.recycleview.DetailsActivity;
+import com.example.android.recycleview.Model.Listitem;
 import com.example.android.recycleview.R;
 
 import java.util.List;
-
-import Model.Listitem;
 
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {

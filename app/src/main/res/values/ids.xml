@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item name="name" type="id">FullName</item>
-    <item name="phone" type="id">Phone</item>
-    <item name="btn_regist" type="id">RegisterBtn</item>
-    <item name="loginBtn" type="id">LoginBtn</item>
-    <item name="loding" type="id">Loding</item>
-</resources>

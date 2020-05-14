@@ -6,11 +6,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.android.recycleview.Adapter.MyAdapter;
+import com.example.android.recycleview.Model.Listitem;
+
 import java.util.ArrayList;
 import java.util.List;
-
-import Adapter.MyAdapter;
-import Model.Listitem;
 
 public class HomeActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -59,15 +59,6 @@ public class HomeActivity extends AppCompatActivity {
         listitems.add(item11);
         listitems.add(item12);
         listitems.add(item13);
-
-
-
-
-
-
-
-
-
 
         adapter = new MyAdapter(this, listitems);
         recyclerView.setAdapter(adapter);

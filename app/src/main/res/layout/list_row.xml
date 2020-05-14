@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:paddingBottom="7sp"
-    android:paddingTop="8sp"
-    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
     android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
     android:focusable="true"
-    android:layout_height="wrap_content">
+    android:orientation="vertical"
+    android:paddingTop="8sp"
+    android:paddingBottom="7sp">
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
 
         android:layout_width="385dp"
-        android:layout_height="162dp">
+        android:layout_height="162dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="10dp">
 
 
         <LinearLayout
@@ -67,6 +70,6 @@
 
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
 </RelativeLayout>

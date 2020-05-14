@@ -1,4 +1,4 @@
-package Model;
+package com.example.android.recycleview.Model;
 
 public class Listitem {
 
